@@ -6,7 +6,7 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
+        <nav class="navbar">
             <div class="logo">
                 <a href="#">Astro</a>
             </div>
@@ -16,17 +16,19 @@
                 <li><a href="#">Projets</a></li>
             </ul>
             <a href="#" class="action-btn">SigIn</a>
-            <div class="toggle_btn">
-                <i class="fa-solid fa-bars" style="color: #B197FC;"></i>
-            </div>
-        </div>
-
+            <label for="menu" class="nav_label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="menu" class="nav_input">
+        </nav>
+        <!--
         <div class="dropdown_menu">
             <li><a href="#">Home</a></li>
                 <li><a href="#">Document</a></li>
                 <li><a href="#">Projets</a></li>
                 <a href="#" class="action-btn">SigIn</a>
         </div>
+        -->
     </header>
 <script src="https://kit.fontawesome.com/0cf5bdbb57.js" crossorigin="anonymous"></script>
 </body>
